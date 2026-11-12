@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consciência Negra | Nossa História, Nossa Voz</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf0;
+    color: #29201a;
+}
+
+header {
+    background: #17120f;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e8a72e;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e8a72e;
+}
+
+.hero {
+    min-height: 550px;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1600');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 7vw, 65px);
+    color: #f4b942;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 21px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    background: #d99120;
+    color: #17120f;
+    padding: 14px 28px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #ffcb64;
+}
+
+section {
+    padding: 65px 9%;
+}
+
+.titulo {
+    text-align: center;
+    color: #87431f;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.texto {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.historia {
+    background: #f1e2ca;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px #0002;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #9a501e;
+    padding: 15px 15px 5px;
+}
+
+.card p {
+    padding: 10px 15px 20px;
+    line-height: 1.6;
+}
+
+.cultura {
+    background: #29201a;
+    color: white;
+}
+
+.cultura .titulo {
+    color: #f4b942;
+}
+
+.frase {
+    background: #b36b27;
+    color: white;
+    text-align: center;
+    padding: 65px 15px;
+}
+
+.frase h2 {
+    font-size: 30px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+footer {
+    background: #17120f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media(max-width: 600px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+    nav {
+        text-align: center;
+    }
+    nav a {
+        display: inline-block;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">✊ CONSCIÊNCIA NEGRA</div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#personalidades">Personalidades</a>
+        <a href="#cultura">Cultura</a>
+    </nav>
+</header>
+
+<div class="hero" id="inicio">
+    <h1>Consciência Negra</h1>
+    <p>
+        Nossa história, nossa cultura, nossa identidade.
+        Respeitar a história negra é construir um futuro
+        com igualdade, liberdade e respeito.
+    </p>
+    <a href="#historia" class="botao">Conheça nossa história</a>
+</div>
+
+<section id="historia" class="historia">
+    <h2 class="titulo">Nossa História</h2>
+    <div class="texto">
+        <p>
+            O Dia da Consciência Negra é celebrado em 20 de novembro.
+            A data representa a luta do povo negro contra o racismo
+            e a desigualdade, além de valorizar sua história,
+            identidade e contribuições para a sociedade brasileira.
+        </p>
+        <br>
+        <p>
+            A data homenageia Zumbi dos Palmares, importante símbolo
+            da resistência negra e da luta pela liberdade durante
+            o período da escravidão no Brasil.
+        </p>
+    </div>
+</section>
+
+<section id="personalidades">
+    <h2 class="titulo">Personalidades Negras que Fizeram História</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Zumbi.jpg/400px-Zumbi.jpg" alt="Representação de Zumbi dos Palmares">
+            <h3>Zumbi dos Palmares</h3>
+            <p>Líder do Quilombo dos Palmares e símbolo da resistência contra a escravidão.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dandara_dos_Palmares.jpg/400px-Dandara_dos_Palmares.jpg" alt="Representação de Dandara">
+            <h3>Dandara dos Palmares</h3>
+            <p>Mulher guerreira que participou da luta e resistência no Quilombo dos Palmares.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Carolina_Maria_de_Jesus_%28cropped%29.jpg/400px-Carolina_Maria_de_Jesus_%28cropped%29.jpg" alt="Carolina Maria de Jesus">
+            <h3>Carolina Maria de Jesus</h3>
+            <p>Escritora brasileira que retratou a desigualdade social em suas obras.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Machado_de_Assis_1904.jpg/400px-Machado_de_Assis_1904.jpg" alt="Machado de Assis">
+            <h3>Machado de Assis</h3>
+            <p>Um dos maiores escritores da literatura brasileira e fundador da Academia Brasileira de Letras.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="cultura" id="cultura">
+    <h2 class="titulo">Cultura Afro-Brasileira</h2>
+
+    <div class="texto">
+        <p>
+            A cultura afro-brasileira está presente na música,
+            dança, culinária, religião, arte, linguagem e nas
+            tradições que fazem parte da identidade do Brasil.
+        </p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=700" alt="Música e dança">
+            <h3>Música e Dança</h3>
+            <p>Samba, capoeira, maracatu e diversos ritmos que representam nossas raízes.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?w=700" alt="Arte cultural">
+            <h3>Arte e Tradição</h3>
+            <p>A arte afro-brasileira expressa resistência, criatividade, ancestralidade e identidade.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700" alt="Comida">
+            <h3>Culinária</h3>
+            <p>Acarajé, vatapá e outras receitas que carregam história e tradição.</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="frase">
+    <h2>
+        "Ser negro é ter uma história de força,
+        resistência, cultura e orgulho. Respeito
+        não é favor, é direito!"
+    </h2>
+</div>
+
+<section>
+    <h2 class="titulo">Diga Não ao Racismo!</h2>
+    <div class="texto">
+        <p>
+            Todos somos iguais em direitos e merecemos respeito.
+            O racismo precisa ser combatido todos os dias,
+            por meio da educação, da conscientização e da união.
+        </p>
+        <p style="margin-top:20px; font-weight:bold; color:#9a501e;">
+            Consciência Negra é memória, resistência e futuro!
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>✊ Consciência Negra — Nossa História, Nossa Voz.</p>
+    <p>Site educativo sobre a valorização da cultura afro-brasileira.</p>
+</footer>
+
+</body>
+</html>
